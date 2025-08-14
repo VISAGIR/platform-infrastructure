@@ -1,0 +1,16 @@
+bison
+flex
+patch
+autoconf
+automake
+libtool
+libcurl4-openssl-dev
+uuid-dev 
+uuid
+libssl-dev
+libbz2-dev
+liblzma-dev
+doxygen
+zlib1g-dev
+libarchive-dev
+libssh2-1-dev

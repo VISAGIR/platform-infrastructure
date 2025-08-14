@@ -1,0 +1,9 @@
+set -e
+
+WHICHSCRIPT=$1
+STARTINGDIR=$(dirname $0)
+
+cd $STARTINGDIR
+source comp/$WHICHSCRIPT 2>&1 | tee /opt/jam/log/comp-$WHICHSCRIPT.log
+
+exit 0
